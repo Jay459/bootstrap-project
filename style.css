@@ -1,0 +1,111 @@
+html, body {
+    height:100%;
+}
+
+body {
+    /* background: radial-gradient(circle, lightblue,#b1efff); */
+    /* background-image: url("http://electricvehicles.in/wp-content/uploads/2018/07/super-cars-10.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(8px);
+    margin: 0; */
+    background-color: lightblue;
+}
+
+.title {
+    color: black ;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    /* background-color: whitesmoke; */
+    padding-bottom: 15px;
+    /* border-bottom: 10px double black; */
+}
+
+.title:hover {
+    color: blue;
+}
+
+.CarNames {
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, sans-serif;
+    text-decoration: underline;
+}
+
+#google-link:visited {
+    color:blue;
+}
+
+#google-link:link {
+    color: purple;
+}
+
+ol > li{
+    font-family:'Times New Roman', Times, sans-serif;
+    color: black;
+}
+
+h1 {
+    margin-block: 0;
+}
+
+.image{
+    height: 25vh;
+    width: 25vw;
+    padding-left: 5px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-element {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 10px;
+    transition: padding 1s ease;
+}
+
+.flex-element:hover {
+    background-color: lightgrey;
+    padding: 25px;
+    transform: scale(1.1);
+}
+
+.grid-container {
+    background-color: white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.grid-elements {
+    margin: 5px;
+    width: 30px;
+    text-align: center;
+}
+
+@keyframes animation {
+    0% {
+        transform: rotate(0px 0px);
+    }
+
+    50% {
+        transform: rotate(90px 90px);
+    }
+
+    100% {
+        transform: rotate(180px 180px);
+    }
+}
